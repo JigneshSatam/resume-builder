@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <style>
       @font-face{
         font-family: "Roboto";
@@ -8,6 +8,10 @@
         font-stretch: normal;
         font-style: normal;
         font-weight: normal;
+      }
+      #name{
+        font-weight: bold;
+        font-size: 1.25em;
       }
       .ul_padding{
         padding-left: 20px;
@@ -22,8 +26,12 @@
         margin-bottom: 3px;
       }
       .topic{
-        font-size: 18px;
+        font-size: 1em;
         color: #2980b9;
+      }
+      .position{
+        font-size: 1em;
+        margin-bottom: 0.2em;
       }
       .sub_topic_seperator{
         border-top: 2px dotted #8c8b8b;
@@ -38,8 +46,10 @@
       }
       .company_name{
         color: #2980b9;
-        font-size: 16px;
-        margin-bottom: 7px;
+        /*font-size: 16px;
+        margin-bottom: 7px;*/
+        font-size: 0.85em;
+        margin-bottom: 0.2em;
       }
       .roboto{
         font-family: "Roboto";
@@ -50,63 +60,120 @@
       .fa{
         color: #2980b9;
       }
+      .fa-at{
+        font-size: 0.9em; 
+      }
+      .fa-mobile{
+        font-size: 1.1em; 
+      }
+      .fa-map-marker{
+        margin-right: 0.3em;
+        font-size: 1.1em;
+      }
+      .contact_me_content{
+        font-size: 0.7em;
+        float: left;
+      }
+      #container1{
+        height: 4em;
+        margin-bottom: 0.1em;
+        margin-top: 0.2em;
+        /*height: 70px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-top: 10px;*/
+      }
+      .left_margin_point_2em{
+        margin-left: 0.2em;
+      }
+      .right_margin_1em{
+        margin-right: 1em;
+      }
+      #photo img{
+        border-radius: 100%;
+        float: right;
+        width: 5em;
+        height: 4em;
+      }
+      .discription{
+        font-size: 0.7em;
+        clear: both;
+      }
+      .float_left{
+        float: left;
+      }
+      .exp_time_place{
+        font-size: 0.7em;
+      }
+      .exp_time_place div{
+        width: calc(100% / 2);
+        float: left;
+        /*margin-right: 0.5em;*/
+        /*box-sizing: border-box;*/
+        /*width: calc(100% / 2);*/
+      }
+      .clear{
+        clear: both;
+      }
+      .exp_time_place .fa{
+        margin-right: 0.3em;
+        font-size: 1.1em;
+      }
     </style>
   <head>
   <body class="roboto" style="background-image: url('240_F_93239630_Ied7ydOXdKKnLCb6WlQJBmYVSrjTF7gO.jpg');">
-    <div id="container1" style="height: 70px; margin-bottom: 10px; margin-left: 10px; margin-top: 10px;">
+    <div id="container1" class="left_margin_point_2em">
       <div style="width: 90%">
-        <div id="name_container" style="display: inline; width: 65%; float: left;">
+        <div id="name_container" class="float_left" style="width: 65%;">
           <div id='name' style="margin-bottom: 6px;">
-            <b style="font-size: 20px;">
-              JIGNESH SURYAKANT SATAM
-            </b>
+            JIGNESH SURYAKANT SATAM
           </div>
           <div id='contact_me'>
-            <div id='contact_me1' style="display: inline; margin-right: 20px;">
-              <i class="fa fa-at" style="font-size:14px;"></i>
+            <div class="contact_me_content right_margin_1em" id='contact_me1'>
+              <i class="fa fa-at"></i>
               <a href="mailto:jigneshsatam@gmail.com">jigneshsatam@gmail.com</a>
             </div>
-            <div id='contact_me2' style="display: inline; margin-right: 20px;">
-              <i class="fa fa-mobile" style="font-size: 18px; margin-right: 3px;"></i>
+            <div class="contact_me_content right_margin_1em" id='contact_me2'>
+              <i class="fa fa-mobile"></i>
               <a href="tel:+919870646124">+91 9870646124</a>
             </div>
-            <div id='contact_me3' style="display: inline;">
-              <i class="fa fa-map-marker" style="font-size: 18px; margin-right: 5px;"></i>Mumbai, India
+            <div class="contact_me_content" id='contact_me3'>
+              <i class="fa fa-map-marker"></i>Mumbai, India
             </div>
           </div>
         </div>
       </div>
-      <!-- <div style="width: 90%">
-        <div id="photo" style="display: inline; width: 35%; float: right;">
-          <img src="IMG_20140523_111543.JPG" alt="Smiley face" style="border-radius: 100%; float: right; width: 133px; height: 125px;">
+      <div style="width: 90%">
+        <div id="photo" style="width: 35%; float: right;">
+          <img src="IMG_20140523_111543.JPG" alt="Smiley face">
         </div>
-      </div> -->
+      </div>
     </div>
-    <div id="container2" class="" style="margin-left: 10px">
-      <div id='container3' style="display: inline; width: 60%; float: left;">
+    <div id="container2" class="left_margin_point_2em">
+      <div id='container3' class="float_left" style="width: 60%;">
         <div style="width: 98%">
           <div class="topic">
-            <i class="fa fa-briefcase" style="margin-right: 7px;"></i>EXPERIENCE
+            <i class="fa fa-briefcase" style="margin-right: 0.45em;"></i>EXPERIENCE
           </div>
           <div>
             <hr class="topic_seperator">
           </div>
           <div class="sub_topics">
-            <div style="font-size: 18px; margin-bottom: 4px;">
+            <div class="position">
               Full Stack Developer
             </div>
             <div class="company_name">
               IDfy
             </div>
-            <div style="">
-              <div style="display: inline; margin-right: 30px;">
-                <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>July 2015 - Ongoing
+            <div class="exp_time_place">
+              <div style="">
+                <i class="fa fa-calendar"></i>July 2015 - Ongoing
               </div>
-              <div style="display: inline;">
-                <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
+              <div>
+                <i class="fa fa-map-marker"></i>Mumbai, India
               </div>
             </div>
-            <div id="discription" style="">
+            <div class="discription">
               <ul class="ul_padding ul_margin">
                 <li class="li_bottom_margin_and_word_break">gygguygyuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu gyguygyug ygygygyug yugyugyug ygyguyg ugugugu gugu gug uy gugu ggugugu gug ug yu gugyg.
                 </li>
@@ -119,21 +186,21 @@
             <hr class="sub_topic_seperator">
           </div>
           <div class="sub_topics">
-            <div style="font-size: 18px; margin-bottom: 4px;">
+            <div class="position">
               Developer
             </div>
             <div class="company_name">
               Kiprosh
             </div>
-            <div style="">
-              <div style="display: inline; margin-right: 30px;">
-                <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>June 2014 - July 2015
+            <div class="exp_time_place">
+              <div style="">
+                <i class="fa fa-calendar"></i>June 2014 - July 2015
               </div>
-              <div style="display: inline;">
-                <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
+              <div>
+                <i class="fa fa-map-marker"></i>Mumbai, India
               </div>
             </div>
-            <div id="discription" style="">
+            <div class="discription">
               <ul class="ul_padding ul_margin">
                 <li class="li_bottom_margin_and_word_break">
                   Performed analysis, design, development, deployment and support of web based software products on Ruby on Rails technology using Agile SCRUM methodology.
@@ -166,7 +233,7 @@
           </div>
         </div>
       </div>
-      <div id='container4' style="display: inline; width: 40%; float: right;">
+      <div id='container4' style="float: left; width: 40%; float: right;">
         <div style="width: 100%; margin-bottom: 10px;">
           <div class="topic">
             <i class="fa fa-graduation-cap" style="margin-right: 4px;"></i>EDUCATION
@@ -175,60 +242,60 @@
             <hr class="topic_seperator">
           </div>
           <div class="sub_topics">
-            <div style="font-size: 18px; margin-bottom: 4px;">
+            <div class="position">
               Bachelor of Engineering in Computers
             </div>
             <div class="company_name">
               Atharva College of Engineering (University of Mumbai)
             </div>
             <div style="height: 20px;">
-              <div style="display: inline; float: left; width: 24%;">
+              <div style="float: left; width: 24%;">
                 <i class="fa fa-line-chart" style="font-size:16px; margin-right: 10px;"></i>67.60%
               </div>
-              <div style="display: inline; float: left; width: 50%;">
+              <div style="float: left; width: 50%;">
                 <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>August 2010 - June 2014
               </div>
-              <div style="display: inline; float: left">
+              <div style="float: left">
                 <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
               </div>
             </div>
             <hr class="sub_topic_seperator">
           </div>
           <div class="sub_topics">
-            <div style="font-size: 18px; margin-bottom: 4px;">
+            <div class="position">
               Higher Secondary Certificate (HSC)
             </div>
             <div class="company_name">
               Nirmala College of Science and Commerce (Maharashtra State Board)
             </div>
             <div style="height: 20px;">
-              <div style="display: inline; float: left; width: 24%;">
+              <div style="float: left; width: 24%;">
                 <i class="fa fa-line-chart" style="font-size:16px; margin-right: 10px;"></i>76.67%
               </div>
-              <div style="display: inline; float: left; width: 50%;">
+              <div style="float: left; width: 50%;">
                 <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>July 2007 - June 2009
               </div>
-              <div style="display: inline; float: left;">
+              <div style="float: left;">
                 <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
               </div>
             </div>
             <hr class="sub_topic_seperator">
           </div>
           <div class="sub_topics">
-            <div style="font-size: 18px; margin-bottom: 4px;">
+            <div class="position">
               Secondary School Certificate (SSC)
             </div>
             <div class="company_name">
               J.B. Khot High School (Maharashtra State Board)
             </div>
             <div style="height: 20px;">
-              <div style="display: inline; width: 24%; float: left">
+              <div style="width: 24%; float: left">
                 <i class="fa fa-line-chart" style="font-size:16px; margin-right: 10px;"></i>78.30%
               </div>
-              <div style="display: inline; width: 50%; float: left">
+              <div style="width: 50%; float: left">
                 <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>June 2007
               </div>
-              <div style="display: inline; float: left">
+              <div style="float: left">
                 <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
               </div>
             </div>
@@ -242,7 +309,7 @@
             <hr class="topic_seperator">
           </div>
           <div class="sub_topics">
-            <div style="font-size: 18px; margin-bottom: 4px;">
+            <div class="position">
               Oracle Certified Professional, JAVA SE 6 Programmer
             </div>
             <div class="content_n_logo">
@@ -251,13 +318,13 @@
                   Oracle University
                 </div>
                 <div style="height: 20px;">
-                  <div style="display: inline; width: 24%; float: left">
+                  <div style="width: 24%; float: left">
                     <i class="fa fa-line-chart" style="font-size:16px; margin-right: 10px;"></i>98%
                   </div>
-                  <div style="display: inline; width: 50%; float: left">
+                  <div style="width: 50%; float: left">
                     <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>October 2013
                   </div>
-                  <div style="display: inline; float: left">
+                  <div style="float: left">
                     <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
                   </div>
                 </div>
