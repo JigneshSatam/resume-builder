@@ -28,6 +28,7 @@
       .topic{
         font-size: 1em;
         color: #2980b9;
+        clear: both;
       }
       .position{
         font-size: 1em;
@@ -36,6 +37,7 @@
       .sub_topic_seperator{
         border-top: 2px dotted #8c8b8b;
         width: 100%;
+        clear: both;
       }
       .topic_seperator{
         margin-left: 0px;
@@ -115,7 +117,7 @@
       .clear{
         clear: both;
       }
-      .exp_time_place .fa{
+      .exp_time_place .fa, .edu_content .fa {
         margin-right: 0.3em;
         font-size: 1.1em;
       }
@@ -123,8 +125,16 @@
         font-size: 0.7em;
       }
       .edu_content div{
-        width: calc(100% / 3);
         float: left;
+      }
+      .edu_content .score{
+        width: 20%
+      }
+      .edu_content .date{
+        width: 50%
+      }
+      .edu_content .location{
+        width: 30%
       }
     </style>
   <head>
@@ -256,14 +266,14 @@
               Atharva College of Engineering (University of Mumbai)
             </div>
             <div class="edu_content">
-              <div style="float: left; width: 24%;">
-                <i class="fa fa-line-chart" style="font-size:16px; margin-right: 10px;"></i>67.60%
+              <div class="score">
+                <i class="fa fa-line-chart"></i>67.60%
               </div>
-              <div style="float: left; width: 50%;">
-                <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>August 2010 - June 2014
+              <div class="date">
+                <i class="fa fa-calendar"></i>August 2010 - June 2014
               </div>
-              <div style="float: left">
-                <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
+              <div class="location">
+                <i class="fa fa-map-marker"></i>Mumbai, India
               </div>
             </div>
             <hr class="sub_topic_seperator">
@@ -276,14 +286,14 @@
               Nirmala College of Science and Commerce (Maharashtra State Board)
             </div>
             <div class="edu_content">
-              <div style="float: left; width: 24%;">
-                <i class="fa fa-line-chart" style="font-size:16px; margin-right: 10px;"></i>76.67%
+              <div class="score">
+                <i class="fa fa-line-chart"></i>76.67%
               </div>
-              <div style="float: left; width: 50%;">
-                <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>July 2007 - June 2009
+              <div class="date">
+                <i class="fa fa-calendar"></i>July 2007 - June 2009
               </div>
-              <div style="float: left;">
-                <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
+              <div class="location">
+                <i class="fa fa-map-marker"></i>Mumbai, India
               </div>
             </div>
             <hr class="sub_topic_seperator">
@@ -296,14 +306,14 @@
               J.B. Khot High School (Maharashtra State Board)
             </div>
             <div class="edu_content">
-              <div style="width: 24%; float: left">
-                <i class="fa fa-line-chart" style="font-size:16px; margin-right: 10px;"></i>78.30%
+              <div class="score">
+                <i class="fa fa-line-chart"></i>78.30%
               </div>
-              <div style="width: 50%; float: left">
-                <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>June 2007
+              <div class="date">
+                <i class="fa fa-calendar"></i>June 2007
               </div>
-              <div style="float: left">
-                <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
+              <div class="location">
+                <i class="fa fa-map-marker"></i>Mumbai, India
               </div>
             </div>
           </div>
@@ -324,14 +334,14 @@
                 <div class="company_name">
                   Oracle University
                 </div>
-                <div style="height: 20px;">
-                  <div style="width: 24%; float: left">
-                    <i class="fa fa-line-chart" style="font-size:16px; margin-right: 10px;"></i>98%
+                <div class="edu_content">
+                  <div class="score">
+                    <i class="fa fa-line-chart"></i>98%
                   </div>
-                  <div style="width: 50%; float: left">
+                  <div class="date">
                     <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>October 2013
                   </div>
-                  <div style="float: left">
+                  <div class="location">
                     <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
                   </div>
                 </div>
