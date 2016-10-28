@@ -35,7 +35,7 @@
         margin-bottom: 0.2em;
       }
       .sub_topic_seperator{
-        border-top: 2px dotted #8c8b8b;
+        border-top: 0.15em dotted #8c8b8b;
         width: 100%;
         clear: both;
       }
@@ -117,12 +117,13 @@
       .clear{
         clear: both;
       }
-      .exp_time_place .fa, .edu_content .fa {
+      .exp_time_place .fa, .edu_content .fa, .certi_content .fa{
         margin-right: 0.3em;
         font-size: 1.1em;
       }
-      .edu_content{
+      .edu_content, .certi_content{
         font-size: 0.7em;
+        height: 1em;
       }
       .edu_content div{
         float: left;
@@ -131,10 +132,27 @@
         width: 20%
       }
       .edu_content .date{
-        width: 50%
+        width: 40%
       }
       .edu_content .location{
         width: 30%
+      }
+      .fa-certificate{
+        margin-right: 0.25em;
+      }
+      .certi_by{
+        font-size: 0.9em;
+      }
+      .certi_content div{
+        width: calc(100% / 3);
+        float: left;
+      }
+      .certi_content_n_logo .content{
+        width: 80%;
+      }
+      .logo img{
+        height: 2.2em;
+        width: 4.3em;
       }
     </style>
   <head>
@@ -270,7 +288,7 @@
                 <i class="fa fa-line-chart"></i>67.60%
               </div>
               <div class="date">
-                <i class="fa fa-calendar"></i>August 2010 - June 2014
+                <i class="fa fa-calendar"></i>Aug 2010 - Jun 2014
               </div>
               <div class="location">
                 <i class="fa fa-map-marker"></i>Mumbai, India
@@ -290,7 +308,7 @@
                 <i class="fa fa-line-chart"></i>76.67%
               </div>
               <div class="date">
-                <i class="fa fa-calendar"></i>July 2007 - June 2009
+                <i class="fa fa-calendar"></i>Jul 2007 - Jun 2009
               </div>
               <div class="location">
                 <i class="fa fa-map-marker"></i>Mumbai, India
@@ -310,7 +328,7 @@
                 <i class="fa fa-line-chart"></i>78.30%
               </div>
               <div class="date">
-                <i class="fa fa-calendar"></i>June 2007
+                <i class="fa fa-calendar"></i>Jun 2007
               </div>
               <div class="location">
                 <i class="fa fa-map-marker"></i>Mumbai, India
@@ -320,34 +338,34 @@
         </div>
         <div style="width: 100%">
           <div class="topic">
-            <i class="fa fa-certificate" style="margin-right: 4px;"></i>CERTIFICATIONS
+            <i class="fa fa-certificate"></i>CERTIFICATIONS
           </div>
           <div>
             <hr class="topic_seperator">
           </div>
           <div class="sub_topics">
-            <div class="position">
+            <div class="certi_by">
               Oracle Certified Professional, JAVA SE 6 Programmer
             </div>
-            <div class="content_n_logo">
-              <div class="content">
+            <div class="certi_content_n_logo">
+              <div class="content float_left">
                 <div class="company_name">
                   Oracle University
                 </div>
-                <div class="edu_content">
+                <div class="certi_content">
                   <div class="score">
                     <i class="fa fa-line-chart"></i>98%
                   </div>
                   <div class="date">
-                    <i class="fa fa-calendar" style="font-size:16px; margin-right: 4px;"></i>October 2013
+                    <i class="fa fa-calendar"></i>October 2013
                   </div>
                   <div class="location">
-                    <i class="fa fa-map-marker" style="font-size:18px; margin-right: 4px;"></i>Mumbai, India
+                    <i class="fa fa-map-marker"></i>Mumbai, India
                   </div>
                 </div>
               </div>
-              <div class="logo">
-                <img src="img2.bmp" style="width: 181px; height: 70px;">
+              <div class="logo float_left">
+                <img src="img2.bmp">
               </div>
             </div>
           </div>
