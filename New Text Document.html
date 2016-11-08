@@ -95,7 +95,7 @@
         border-radius: 100%;
         float: right;
         width: 5em;
-        height: 4em;
+        height: 5em;
       }
       .discription{
         font-size: 0.7em;
@@ -144,17 +144,33 @@
         font-size: 0.9em;
       }
       .certi_content div{
-        width: calc(100% / 3);
         float: left;
       }
+      .certi_content .score{
+        width: 20%;
+      }
+      .certi_content .date {
+        width: 35%;
+      }
+      .certi_content .location{
+        width: 32%;
+      }
       .certi_content_n_logo .content{
-        width: 80%;
+        width: 75%;
       }
       .logo img{
         height: 2.2em;
-        width: 4.3em;
+        width: 5.4em;
       }
     </style>
+    <script type="text/javascript">
+      window.onload = function(){
+        var par = document.getElementById("photo").parentElement.parentElement
+        if (par.id == "container1"){
+          par.style.height = "5em";
+        }
+      }
+    </script>
   <head>
   <body class="roboto" style="background-image: url('240_F_93239630_Ied7ydOXdKKnLCb6WlQJBmYVSrjTF7gO.jpg');">
     <div id="container1" class="left_margin_point_2em">
@@ -180,7 +196,7 @@
       </div>
       <div style="width: 90%">
         <div id="photo" style="width: 35%; float: right;">
-          <img src="IMG_20140523_111543.JPG" alt="Smiley face">
+          <img src="IMG1.jpg" alt="Smiley face">
         </div>
       </div>
     </div>
