@@ -123,12 +123,18 @@
       }
       .edu_content, .certi_content{
         font-size: 0.7em;
-        height: 1em;
+        /*height: 1em;*/
+      }
+      .edu_content:after, .certi_content:after{
+        clear: both;
+        display: block;
+        content: "";
       }
       .edu_content div{
         float: left;
+        margin-right: 9px;
       }
-      .edu_content .score{
+      /*.edu_content .score{
         width: 20%
       }
       .edu_content .date{
@@ -136,7 +142,7 @@
       }
       .edu_content .location{
         width: 30%
-      }
+      }*/
       .fa-certificate{
         margin-right: 0.25em;
       }
