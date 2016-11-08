@@ -85,6 +85,21 @@
         margin-left: 10px;
         margin-top: 10px;*/
       }
+      .left_container{
+        float: left;
+        width: 50%;
+      }
+      .right_container{
+        width: 50%;
+        float: right;
+      }
+      .left_sub_container{
+        width: 98%;
+      }
+      .right_sub_container{
+        width: 100%;
+        margin-bottom: 0.6em;
+      }
       .left_margin_point_2em{
         margin-left: 0.2em;
       }
@@ -143,7 +158,7 @@
       .edu_content .location{
         width: 30%
       }*/
-      .fa-certificate{
+      .fa-certificate, .fa-github{
         margin-right: 0.25em;
       }
       .certi_by{
@@ -161,12 +176,20 @@
       .certi_content .location{
         width: 32%;
       }
+      .certi_content_n_logo:after{
+        clear: both;
+        content: '';
+        display: block;
+      }
       .certi_content_n_logo .content{
-        width: 75%;
+        width: 74%;
+      }
+      .logo {
+        width: 26%;
       }
       .logo img{
-        height: 2.2em;
-        width: 5.4em;
+        height: 2.3em;
+        width: 5.6em;
       }
     </style>
     <script type="text/javascript">
@@ -207,8 +230,8 @@
       </div>
     </div>
     <div id="container2" class="left_margin_point_2em">
-      <div id='container3' class="float_left" style="width: 50%;">
-        <div style="width: 98%">
+      <div id='container3' class="left_container float_left">
+        <div class="left_sub_container">
           <div class="topic">
             <i class="fa fa-briefcase" style="margin-right: 0.45em;"></i>EXPERIENCE
           </div>
@@ -290,8 +313,8 @@
           </div>
         </div>
       </div>
-      <div id='container4' style="float: left; width: 50%; float: right;">
-        <div style="width: 100%; margin-bottom: 10px;">
+      <div id='container4' class="right_container">
+        <div class="right_sub_container">
           <div class="topic">
             <i class="fa fa-graduation-cap" style="margin-right: 4px;"></i>EDUCATION
           </div>
@@ -358,9 +381,43 @@
             </div>
           </div>
         </div>
-        <div style="width: 100%">
+        <div class="right_sub_container">
           <div class="topic">
             <i class="fa fa-certificate"></i>CERTIFICATIONS
+          </div>
+          <div>
+            <hr class="topic_seperator">
+          </div>
+          <div class="sub_topics">
+            <div class="certi_by">
+              Oracle Certified Professional, JAVA SE 6 Programmer
+            </div>
+            <div class="certi_content_n_logo">
+              <div class="content float_left">
+                <div class="company_name">
+                  Oracle University
+                </div>
+                <div class="certi_content">
+                  <div class="score">
+                    <i class="fa fa-line-chart"></i>98%
+                  </div>
+                  <div class="date">
+                    <i class="fa fa-calendar"></i>October 2013
+                  </div>
+                  <div class="location">
+                    <i class="fa fa-map-marker"></i>Mumbai, India
+                  </div>
+                </div>
+              </div>
+              <div class="logo float_left">
+                <img src="img2.bmp">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right_sub_container">
+          <div class="topic">
+            <i class="fa fa-github"></i>OPEN SOURCE CONTRIBUTION
           </div>
           <div>
             <hr class="topic_seperator">
