@@ -1,197 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <style>
-      @font-face{
-        font-family: "Roboto";
-        src: url(roboto/Roboto-Regular.ttf);
-        font-stretch: normal;
-        font-style: normal;
-        font-weight: normal;
-      }
-      #name{
-        font-weight: bold;
-        font-size: 1.25em;
-      }
-      .ul_padding{
-        padding-left: 20px;
-        -webkit-padding-start: 20px;
-      }
-      .ul_margin{
-        margin-top: 4px;
-        margin-bottom: 4px;
-      }
-      .li_bottom_margin_and_word_break{
-        word-wrap: break-word;
-        margin-bottom: 3px;
-      }
-      .topic{
-        font-size: 1em;
-        color: #2980b9;
-        clear: both;
-      }
-      .position{
-        font-size: 1em;
-        margin-bottom: 0.2em;
-      }
-      .sub_topic_seperator{
-        border-top: 0.15em dotted #8c8b8b;
-        width: 100%;
-        clear: both;
-      }
-      .topic_seperator{
-        margin-left: 0px;
-        height: 4px;
-        background-color: #2980b9;
-        border: none;
-        margin-top: 2px;
-      }
-      .company_name{
-        color: #2980b9;
-        /*font-size: 16px;
-        margin-bottom: 7px;*/
-        font-size: 0.85em;
-        margin-bottom: 0.2em;
-      }
-      .roboto{
-        font-family: "Roboto";
-      }
-      a{
-        color: #2980b9;
-      }
-      .fa{
-        color: #2980b9;
-      }
-      .fa-at{
-        font-size: 0.9em;
-      }
-      .fa-mobile{
-        font-size: 1.1em;
-      }
-      .fa-map-marker{
-        margin-right: 0.3em;
-        font-size: 1.1em;
-      }
-      .contact_me_content{
-        font-size: 0.7em;
-        float: left;
-      }
-      #container1{
-        height: 4em;
-        margin-bottom: 0.1em;
-        margin-top: 0.2em;
-        /*height: 70px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-top: 10px;*/
-      }
-      .left_container{
-        float: left;
-        width: 50%;
-      }
-      .right_container{
-        width: 50%;
-        float: right;
-      }
-      .left_sub_container{
-        width: 98%;
-      }
-      .right_sub_container{
-        width: 100%;
-        margin-bottom: 0.6em;
-      }
-      .left_margin_point_2em{
-        margin-left: 0.2em;
-      }
-      .right_margin_1em{
-        margin-right: 1em;
-      }
-      #photo img{
-        border-radius: 100%;
-        float: right;
-        width: 5em;
-        height: 5em;
-      }
-      .discription{
-        font-size: 0.7em;
-        clear: both;
-      }
-      .float_left{
-        float: left;
-      }
-      .exp_time_place{
-        font-size: 0.7em;
-      }
-      .exp_time_place div{
-        width: calc(100% / 2);
-        float: left;
-        /*margin-right: 0.5em;*/
-        /*box-sizing: border-box;*/
-        /*width: calc(100% / 2);*/
-      }
-      .clear{
-        clear: both;
-      }
-      .exp_time_place .fa, .edu_content .fa, .certi_content .fa{
-        margin-right: 0.3em;
-        font-size: 1.1em;
-      }
-      .edu_content, .certi_content{
-        font-size: 0.7em;
-        /*height: 1em;*/
-      }
-      .edu_content:after, .certi_content:after{
-        clear: both;
-        display: block;
-        content: "";
-      }
-      .edu_content div{
-        float: left;
-        margin-right: 9px;
-      }
-      /*.edu_content .score{
-        width: 20%
-      }
-      .edu_content .date{
-        width: 40%
-      }
-      .edu_content .location{
-        width: 30%
-      }*/
-      .fa-certificate, .fa-github{
-        margin-right: 0.25em;
-      }
-      .certi_by{
-        font-size: 0.9em;
-      }
-      .certi_content div{
-        float: left;
-      }
-      .certi_content .score{
-        width: 20%;
-      }
-      .certi_content .date {
-        width: 35%;
-      }
-      .certi_content .location{
-        width: 32%;
-      }
-      .certi_content_n_logo:after{
-        clear: both;
-        content: '';
-        display: block;
-      }
-      .certi_content_n_logo .content{
-        width: 75%;
-      }
-      .logo {
-        width: 25%;
-      }
-      .logo img{
-        height: 2.3em;
-        width: 5.6em;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript">
       window.onload = function(){
         var par = document.getElementById("photo").parentElement.parentElement
@@ -423,29 +233,25 @@
             <hr class="topic_seperator">
           </div>
           <div class="sub_topics">
-            <div class="certi_by">
-              Oracle Certified Professional, JAVA SE 6 Programmer
+            <div class="open_source_title">
+              <a href="https://rubygems.org/gems/select_all-rails">
+                <i class="fa fa-diamond"></i>select_all-rails
+              </a>
+              &nbsp
+              <i class="fa fa-download"></i>1.1k+
+              &nbsp
+              &nbsp
+              <a href="https://github.com/JigneshSatam/select_all-rails">
+                <i class="fa fa-code-fork"></i>
+                github
+              </a>
             </div>
-            <div class="certi_content_n_logo">
-              <div class="content float_left">
-                <div class="company_name">
-                  Oracle University
-                </div>
-                <div class="certi_content">
-                  <div class="score">
-                    <i class="fa fa-line-chart"></i>98%
-                  </div>
-                  <div class="date">
-                    <i class="fa fa-calendar"></i>October 2013
-                  </div>
-                  <div class="location">
-                    <i class="fa fa-map-marker"></i>Mumbai, India
-                  </div>
-                </div>
-              </div>
-              <div class="logo float_left">
-                <img src="img2.bmp">
-              </div>
+            <div class="discription">
+              <ul class="ul_padding ul_margin">
+                <li class="li_bottom_margin_and_word_break">
+                  <b><i>select_all-rails</i></b> is gem for implementing <b>'select-all'</b> functionality in more simple and effective way in ruby-on-rails application.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
