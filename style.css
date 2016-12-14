@@ -73,7 +73,6 @@ a{
   font-size: 0.75em;
 }
 .fa-code-fork{
-  margin-right: 0.3em;
   font-size: 1em;
 }
 .fa-diamond{
@@ -203,5 +202,7 @@ a{
 }
 .open_source_title a{
   color: black;
+}
+.no_text_decoration{
   text-decoration: none;
 }
