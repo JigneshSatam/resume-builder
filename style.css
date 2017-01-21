@@ -5,6 +5,9 @@
   font-style: normal;
   font-weight: normal;
 }
+body{
+  /*background-image: url('240_F_93239630_Ied7ydOXdKKnLCb6WlQJBmYVSrjTF7gO.jpg');*/
+}
 #name{
   font-weight: bold;
   font-size: 1.25em;
@@ -37,7 +40,7 @@
 }
 .topic_seperator{
   margin-left: 0px;
-  height: 4px;
+  height: 2px;
   background-color: #2980b9;
   border: none;
   margin-top: 2px;
