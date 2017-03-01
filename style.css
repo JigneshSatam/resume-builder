@@ -214,8 +214,11 @@ a{
   text-decoration: none;
 }
 .skills_and_strengths_category{
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 .skills_and_strengths_content{
-  font-size: 0.7em;
+  font-size: 0.75em;
+}
+.skills_and_strengths_seperator{
+  height: 0.2em;
 }
