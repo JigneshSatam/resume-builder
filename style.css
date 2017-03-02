@@ -6,6 +6,8 @@
   font-weight: normal;
 }
 body{
+  margin: 0.7em;
+  padding: 0.5em 0.5em 0em;
   /*background-image: url('240_F_93239630_Ied7ydOXdKKnLCb6WlQJBmYVSrjTF7gO.jpg');*/
 }
 #name{
@@ -86,7 +88,7 @@ a{
   float: left;
 }
 #container1{
-  height: 3.5em;
+  height: 4em;
   margin-bottom: 0.1em;
   margin-top: 1em;
   /*height: 70px;
@@ -222,4 +224,8 @@ a{
 }
 .skills_and_strengths_seperator{
   height: 0.2em;
+}
+.skills_and_strengths_left_container{
+  float: left;
+  width: 33.33%;
 }
