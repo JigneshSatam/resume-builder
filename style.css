@@ -7,6 +7,7 @@
 }
 body{
   margin: 0.7em;
+  margin-bottom: 0;
   padding: 0.5em 0.5em 0em;
   /*background-image: url('240_F_93239630_Ied7ydOXdKKnLCb6WlQJBmYVSrjTF7gO.jpg');*/
 }
@@ -88,7 +89,8 @@ a{
   float: left;
 }
 #container1{
-  height: 4em;
+  height: 3.7em;
+  /*height: 4em;*/
   margin-bottom: 0.1em;
   margin-top: 1em;
   /*height: 70px;
