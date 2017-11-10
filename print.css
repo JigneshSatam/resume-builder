@@ -66,10 +66,14 @@ body{
   clear: both;
 }
 .topic_seperator{
+  border: solid;
+  border-width: 0.1em;
+  border-color: #2980b9;
   margin-left: 0px;
-  height: 2px;
-  background-color: #2980b9;
-  border: none;
+  height: 0;
+  /*height: 2px;*/
+  /*background-color: #2980b9;*/
+  /*border: none;*/
   margin-top: 2px;
 }
 .company_name{
