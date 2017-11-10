@@ -5,9 +5,12 @@
     <link rel="stylesheet" type="text/css" href="print.css" media="print">
     <script type="text/javascript">
       window.onload = function(){
-        var par = document.getElementById("photo").parentElement.parentElement
-        if (par.id == "container1"){
-          par.style.height = "5em";
+        var photo = document.getElementById("photo");
+        if (photo != null && photo.lenght > 0){
+          par.parentElement.parentElement
+          if (par.id == "container1"){
+            par.style.height = "5em";
+          }
         }
       }
     </script>
@@ -155,24 +158,25 @@
                 <li class="li_bottom_margin_and_word_break">
                   Implemented multiple filters for the app using solr, redis and jquery slider. Worked with numerous plugins like redactor.js, chosen.js, atWho, jQuery UI, FullCalendar, kalendae.
                 </li>
+                <li class="li_bottom_margin_and_word_break">
+                  Selected Accomplishments in the project: Received compliments and appreciation from product owner for implementing some major features including security (using Cancan), daily email notifications for user activities, csv imports, customisations for sending emails to party members, workflow modules and functionalities.
+                </li>
+                <li class="li_bottom_margin_and_word_break">
+                  Implemented a module for automatic saving posts as drafts. Enabling user to edit drafts and post drafts as articles on the portal.
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
       <div id='container4' class="right_container">
-        <div class="right_sub_container">
+        <!-- <div class="right_sub_container">
           <div class="discription">
             <ul class="ul_padding ul_margin">
-              <li class="li_bottom_margin_and_word_break">
-                Selected Accomplishments in the project: Received compliments and appreciation from product owner for implementing some major features including security (using Cancan), daily email notifications for user activities, csv imports, customisations for sending emails to party members, workflow modules and functionalities.
-              </li>
-              <li class="li_bottom_margin_and_word_break">
-                Implemented a module for automatic saving posts as drafts. Enabling user to edit drafts and post drafts as articles on the portal.
-              </li>
+
             </ul>
           </div>
-        </div>
+        </div> -->
         <div class="right_sub_container">
           <div class="topic">
             <i class="fa fa-graduation-cap" style="margin-right: 4px;"></i>EDUCATION
